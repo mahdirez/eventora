@@ -128,7 +128,7 @@
     }
 
     ul {
-        @apply list-disc list-inside;
+        @apply list-none list-inside;
     }
 }
 
@@ -163,7 +163,7 @@
         }
 
         ul {
-            @apply flex flex-row items-center gap-6;
+            @apply list-none flex flex-row items-center gap-6;
         }
     }
 
@@ -215,7 +215,7 @@
 
                     ul {
                         li {
-                            @apply text-light-100 text-lg max-sm:text-sm;
+                            @apply list-none text-light-100 text-lg max-sm:text-sm;
                         }
                     }
                 }
