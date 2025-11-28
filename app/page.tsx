@@ -1,10 +1,8 @@
 import React from "react";
 import ExploreBtn from "@/components/ExploreBtn";
 import EventCard from "@/components/EventCard";
+import events from "@/lib/Constants";
 
-const events = [
-    {image : "/images/event1.png", title: "Event 1" },
-]
 function page() {
   return <section>
       <h1 className="text-center">The Hub For Event <br/> You Can`t Miss</h1>
