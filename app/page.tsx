@@ -1,7 +1,10 @@
 import React from "react";
 
 function page() {
-  return <div>project</div>;
+  return <section>
+      <h1 className="text-center">The Hub For Event <br/> You Can`t Miss</h1>
+      <p className="text-center mt-5">Hackathons, Meetups, Conferences, All in One Place</p>
+  </section>;
 }
 
 export default page;
